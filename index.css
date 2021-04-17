@@ -1,0 +1,59 @@
+ul{
+    background-color:wh;
+    color:white;
+    text-align:right;
+    font-family:cursive;
+    font-size:25px;
+    padding:15px;
+    }
+    
+ul li{list-style-type:none;
+    display:inline;
+    padding-left: 40px;
+    
+    }
+ul li a{color:maroon;
+    padding:15px;
+    text-decoration:none;
+    }
+ul li a:hover{background-color:powderblue;
+    text-decoration:flip;
+    }
+ul li a:visited{color:royalblue;
+    }
+ul li a:active{
+    font-size:25px;
+    font-family:cursive;
+    }
+ol li a{color:black;
+    
+    }
+ol li a:hover{
+    text-decoration:flip;
+    text-decoration:underline;
+    }
+    
+body{
+    background-color:antiquewhite; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:vio;
+
+}
+p{
+    font-size: 110%;
+    text-align: initial;
+    
+}
+}
+h3{
+    display:inline;
+}
+.one{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+.two{
+    display: block;
+}
