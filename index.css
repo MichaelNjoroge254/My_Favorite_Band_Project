@@ -37,13 +37,17 @@ body{
     background-color:antiquewhite; 
     background-repeat: no-repeat;
     background-size: cover;
-    color:vio;
 
 }
 p{
     font-size: 110%;
     text-align: initial;
     
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: blueviolet;
 }
 }
 h3{
@@ -56,4 +60,15 @@ h3{
 }
 .two{
     display: block;
+}
+.three{
+    padding: 1%;
+    padding-left: 50px;
+}
+.four{
+    background-color:rgb(238, 159, 238);
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:25px;
 }
