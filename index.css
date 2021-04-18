@@ -1,74 +1,115 @@
-ul{
-    background-color:wh;
-    color:white;
-    text-align:right;
-    font-family:cursive;
-    font-size:25px;
-    padding:15px;
-    }
-    
-ul li{list-style-type:none;
-    display:inline;
+ul {
+    background-color: wh;
+    color: white;
+    text-align: right;
+    font-family: cursive;
+    font-size: 25px;
+    padding: 15px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
     padding-left: 40px;
-    
-    }
-ul li a{color:maroon;
-    padding:15px;
-    text-decoration:none;
-    }
-ul li a:hover{background-color:powderblue;
-    text-decoration:flip;
-    }
-ul li a:visited{color:royalblue;
-    }
-ul li a:active{
-    font-size:25px;
-    font-family:cursive;
-    }
-ol li a{color:black;
-    
-    }
-ol li a:hover{
-    text-decoration:flip;
-    text-decoration:underline;
-    }
-    
-body{
-    background-color:antiquewhite; 
+
+}
+
+ul li a {
+    color: maroon;
+    padding: 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: powderblue;
+    text-decoration: flip;
+}
+
+ul li a:visited {
+    color: royalblue;
+}
+
+ul li a:active {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+ol li a {
+    color: black;
+
+}
+
+ol li a:hover {
+    text-decoration: flip;
+    text-decoration: underline;
+}
+
+body {
+    background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-p{
+
+p {
     font-size: 110%;
     text-align: initial;
-    
+
 }
-h2{
+
+h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     color: blueviolet;
 }
+
+
+h3 {
+    display: inline;
 }
-h3{
-    display:inline;
-}
-.one{
+
+.one {
     display: inline;
     padding: 0px;
     margin: 0px;
 }
-.two{
+
+#two {
     display: block;
 }
-.three{
+
+#three {
     padding: 1%;
     padding-left: 50px;
 }
-.four{
-    background-color:rgb(238, 159, 238);
-    color:white;
-    text-align:center;
-    padding:20px;
-    font-size:25px;
+
+#four {
+    background-color: rgb(238, 159, 238);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.member{
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: unset;
+    display: block;
+    height:50%;
+    width:40%;
+}
+.img{
+    height:100%;
+    width:100%;
+    display:inline;
+}
+.name{
+    text-shadow: 1px;
+    color: rgba(36, 57, 174, 0.967);
+}
+.bio{
+    font-size: 20px;
+    font-weight: bold;
+    
 }
