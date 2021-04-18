@@ -97,7 +97,8 @@ h3 {
     text-align: unset;
     display: block;
     height:50%;
-    width:40%;
+    width:90%;
+    padding-left: 50px;
 }
 .img{
     height:100%;
@@ -113,3 +114,25 @@ h3 {
     font-weight: bold;
     
 }
+#songs ol li{
+    text-align: center;
+    list-style: none;
+}
+
+.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.float{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    max-width: 33%;
+}
+
