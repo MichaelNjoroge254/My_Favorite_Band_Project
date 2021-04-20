@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 ul {
     color: white;
     text-align: right;
@@ -51,7 +54,7 @@ body {
 }
 
 p {
-    font-size: 110%;
+    font-size: 112%;
     text-align: initial;
 
 }
@@ -90,15 +93,6 @@ h3 {
     font-size: 25px;
 }
 
-.member {
-    font-size: 20px;
-    padding-bottom: 0px;
-    text-align: unset;
-    /* display:block; */
-    height: 50%;
-    /* width: 90%; */
-    padding-left: 30px;
-}
 
 .img {
     height: 100%;
@@ -122,29 +116,41 @@ h3 {
     list-style: none;
 }
 
-.row {
-    display: -webkit-box;
-    display: -ms-fl
-    exbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    /* margin-right: -15px; */
-    /* margin-left: -15px; */
+/* .Mike {
+    display: table;
+    flex-direction: row; */
 }
 
-.float {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    max-width: 33%;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
 }
+span{
+    background-color: violet;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    padding-right: 40px;
+    margin: auto;
+    
+}
+
 ol li a:hover {
-    background-color: powderblue;
+    background-color: violet;
     text-decoration: flip;
 }
+
 ol li a {
     color: rgba(158, 32, 22, 0.966);
     padding: 1px;
     text-decoration: none;
+}
+
+#high {
+    text-align: left;
 }
