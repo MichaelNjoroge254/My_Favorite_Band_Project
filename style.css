@@ -102,7 +102,7 @@ h3 {
 
 .name {
     text-shadow: 1px;
-    color: rgba(36, 57, 174, 0.967);
+    color: rgba(161, 102, 179, 0.967);
 }
 
 .bio {
@@ -111,10 +111,10 @@ h3 {
 
 }
 
-#songs ol li {
+/* #songs ol li {
     text-align: center;
     list-style: none;
-}
+} */
 
 /* .Mike {
     display: table;
@@ -149,8 +149,9 @@ ol li a {
     color: rgba(158, 32, 22, 0.966);
     padding: 1px;
     text-decoration: none;
+    position:relative;
 }
 
-#high {
+/* #high {
     text-align: left;
-}
+} */
